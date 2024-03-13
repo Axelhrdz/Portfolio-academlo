@@ -23,10 +23,10 @@
         </div>
         <div class="navlink__container">
             <ul class="navbar__links" id="navLinks">
-                <li class="nav__link">About me</li>
-                <li class="nav__link">Proyects</li>
+                <li class="nav__link"><a href="#aboutMe">About me</a></li>
+                <li class="nav__link"><a href="#experience">Proyects</a></li>
                 <!-- <li class="nav__link">My Work</li> -->
-                <li class="nav__link">Technologies</li>
+                <li class="nav__link"><a href="#stack">Technologies</a></li>
             </ul>
             <!-- <button type="button" class="btn nav__button"><i class='bx bx-menu'></i></button> -->
         </div>
@@ -54,7 +54,7 @@
     <!-- HEADER -->
 
     <!-- ABOUT ME -->
-    <div class="aboutMe">
+    <div class="aboutMe" id="aboutMe">
         <span class="aboutMe__title">About me🙍‍♂️</span>
         <p>I am 23 years old currently living in Mexico, I love food, really love it, and share a good dinner with family and friends is the best for me. I enjoy a lot riding bicycle, and the beach.</p>
         <p>Furthermore, I'm currently pursuing my Bachelor's degree in computer systems engineer here in Mexico, about to finish in a year and few months, just waiting for the day to come to edit this section of the portfolio to say I am titled finally. 🧑‍🎓</p>
@@ -62,29 +62,68 @@
     <!-- ABOUT ME -->
 
     <!-- EXPRIENCE -->
-    <div class="experience">
+    <div class="experience" id="experience">
         <span class="experience__title">Proyects <i class='bx bx-briefcase-alt' style='color:#ffffff'></i></span>
         <div class="experience__content-regular experience--first-box">
             <div class="experience__text-proyect">
-                <span>Mockup 1</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste atque accusantium ducimus cum illo excepturi distinctio, sapiente inventore! Veritatis nisi autem sint enim quis aut amet minus assumenda commodi vero!</p>
+                <span>Consultant co website</span>
+                <p>This was my first project, after taking a couple of courses about HTML and CSS at Codecademy and FreeCodeCamp. It was a great experience and really challenging at the moment, in which I learned about how the box model works, the usage of HTML elements, and found my way into responsive design, which for sure was a total challenge for me back in the days.</p>
                 <div class="experience__icons">
-                    <div><i class='bx bxl-html5'></i><span>HTML</span></div>
-                    <div><i class='bx bxl-css3' ></i></i><span>CSS</span></div>
-                    <div><i class='bx bxl-bootstrap' ></i></i><span>Bootstrap</span></div>
+                    <div class="icons">
+                        <i class='bx bxl-html5 exp__icon-html'></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="icons">
+                        <i class='bx bxl-css3 exp__icon-css' ></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="icons exp__icon-bootstrap">
+                        <i class='bx bxl-bootstrap' ></i>
+                        <span>Bootstrap</span>
+                    </div>
                 </div>
             </div>
-            <div class="experience__img-proyect"></div>
+            <div class="experience__img-proyect exp--img-1">
+                <a href="https://wonderful-cat-c59f2d.netlify.app/" target="_blank" aria-label="going to proyuect one">
+                    <div class="exp__overlay-1">
+                        <span>Visit the site</span>
+                    </div>
+                </a>
+            </div>
         </div>
+
         <hr>
+
         <div class="experience__content-reverse">
             <div class="experience__text-proyect">
-                <span>Mockup 2</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste atque accusantium ducimus cum illo excepturi distinctio, sapiente inventore! Veritatis nisi autem sint enim quis aut amet minus assumenda commodi vero!</p>
+                <span>Westmire headset site</span>
+                <p>Here in this project I decided to do it only using HTML and CSS, in order for me to get deeper into those languages, and tried to give it a different style, without sectioning that much in squares, and just give it a clearer and more plain color palette overall.</p>
+                <div class="experience__icons">
+                    <div class="icons">
+                        <i class='bx bxl-html5 exp__icon-html'></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="icons">
+                        <i class='bx bxl-css3 exp__icon-css' ></i>
+                        <span>CSS</span>
+                    </div>
+                    <!-- <div class="icons exp__icon-bootstrap">
+                        <i class='bx bxl-bootstrap' ></i>
+                        <span>Bootstrap</span>
+                    </div> -->
+                </div>
             </div>
-            <div class="experience__img-proyect"></div>
+            <div class="experience__img-proyect exp--img-2">
+                <a href="https://65f22178c400023828a102da--comforting-nougat-3ec69e.netlify.app/" target="_blank" aria-label="going to proyuect one">
+                    <div class="exp__overlay-2">
+                        <span>Visit the site</span>
+                    </div>
+                </a>
+            </div>
         </div>
+        
         <hr>
+
         <div class="experience__content-regular">
             <div class="experience__text-proyect">
                 <span>Mockup 3</span>
@@ -95,7 +134,7 @@
         <hr>
         <div class="experience__content-reverse">
             <div class="experience__text-proyect">
-                <span>Mockup 3</span>
+                <span>Mockup 4</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste atque accusantium ducimus cum illo excepturi distinctio, sapiente inventore! Veritatis nisi autem sint enim quis aut amet minus assumenda commodi vero!</p>
             </div>
             <div class="experience__img-proyect"></div>
@@ -103,7 +142,7 @@
         <hr>
         <div class="experience__content-regular">
             <div class="experience__text-proyect">
-                <span>Mockup 3</span>
+                <span>Mockup 5</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste atque accusantium ducimus cum illo excepturi distinctio, sapiente inventore! Veritatis nisi autem sint enim quis aut amet minus assumenda commodi vero!</p>
             </div>
             <div class="experience__img-proyect"></div>
@@ -112,7 +151,7 @@
     <!-- EXPRIENCE -->
 
     <!-- STACK -->
-        <div class="stack">
+        <div class="stack" id="stack">
             <div class="stack__header">
                 <span class="stack__title">Stack Technologies</span>
                 <p class="stack__subtitle">These are some of the technologies I have used along my journey.</p>

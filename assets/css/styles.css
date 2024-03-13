@@ -5,6 +5,7 @@ html{
     font-size: 16px;
     box-sizing: border-box;
     color: #fff;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -36,6 +37,11 @@ body{
     
     margin-left: 2rem;
     margin-right: 2rem;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
 }
 
 /* UTILITIES */
@@ -276,10 +282,30 @@ body{
         display: flex;
         gap: 1rem;
     }
-    .experience__icons i{
+    .exp__icon-html{
+        color: var(--html-color);
+    }
+    .exp__icon-css{
+        color: var(--css-color);
+    }
+    .exp__icon-bootstrap{
+        color: var(--bootstrap-color);
+    }
+    .icons{
+        /* background-color: red; */
+        /* width: 100px; */
+        padding: 0.5rem 0.5rem;
         display: flex;
         justify-content: center;
-        font-size: 40px;
+        align-items: center;
+        gap: 0.5rem;
+        /* color: #fff; */
+    }
+    .icons span{
+        color: #fff;
+    }
+    .icons i{
+        font-size: 30px;
     }
     .experience__img-proyect{
         width: 50%;
@@ -289,11 +315,56 @@ body{
         background-position: center;
         height: 300px;
         transition: background-image 0.3s ease;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .experience__img-proyect:hover{
+    /* PROTEC 1 */
+    .exp--img-1{
+        background-image: linear-gradient(to bottom, #00000058, #00000058), url(/assets/img/a-consultant-co_thumb-min.jpg);
+        transition: background-image 0.3s ease;
+    }
+    .exp__overlay-1{
+        background-color: transparent;
+        display: none;
+    }
+    .exp__overlay-1 span{
+        background-color: inherit;
+        font-size: 2rem;
+    }
+    .exp--img-1:hover{
         cursor: pointer;
-        background-image: linear-gradient(to bottom, #00000088, #0000007a), url(https://placehold.co/400x300/png); 
+        background-image: linear-gradient(to bottom, #000000df, #000000df), url(/assets/img/a-consultant-co_thumb-min.jpg); 
+        /* scale: 1.1; */
+        & .exp__overlay-1{
+            display: block;
+        }
     }
+    /* PROYECT 2 */
+    .exp--img-2{
+        background-image: linear-gradient(to bottom, #00000058, #00000058), url(/assets/img/Westmire\ headset-min.png);
+        transition: background-image 0.3s ease;
+    }
+    .exp__overlay-2{
+        background-color: transparent;
+        display: none;
+    }
+    .exp__overlay-2 span{
+        background-color: inherit;
+        font-size: 2rem;
+    }
+    .exp--img-2:hover{
+        cursor: pointer;
+        background-image: linear-gradient(to bottom, #000000df, #000000df), url(/assets/img/Westmire\ headset-min.png); 
+        /* scale: 1.1; */
+        & .exp__overlay-2{
+            display: block;
+        }
+    }
+
+
+
     /* reverse */
     .experience__content-reverse{
         display: flex;
