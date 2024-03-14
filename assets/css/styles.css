@@ -482,7 +482,7 @@ a{
     .reviewsContainer{
         max-width: var(--max-width-dimensions);
         margin: var(--container-spacing) auto 0 auto;
-        overflow-x: auto;
+        overflow: auto;
         /* overflow: hidden; */
     }
     .reviewsContainer::-webkit-scrollbar{
