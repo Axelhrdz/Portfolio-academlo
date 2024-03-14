@@ -320,7 +320,7 @@ a{
         justify-content: center;
         align-items: center;
     }
-    /* PROTEC 1 */
+    /* PROYECT 1 */
     .exp--img-1{
         background-image: linear-gradient(to bottom, #00000058, #00000058), url(/assets/img/a-consultant-co_thumb-min.jpg);
         transition: background-image 0.3s ease;
@@ -556,6 +556,100 @@ a{
 
     
 /* Reviews */
+
+/* CERTIFICATIONS */
+    .certifications{
+        max-width: var(--max-width-dimensions);
+        margin: 0 auto;
+        margin: var(--container-spacing) auto 0 auto;
+    }
+    .certi___title{
+        font-size: 2rem;
+        font-weight: 400;
+        color: var(--hover-links);
+    }
+    .certi__container{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+    }
+    .certi__item-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .certi__item-container span{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: var(--hover-links-secundary);
+    }
+    .certification{
+        width: 500px;
+        height: 280px;
+        background-color: blue;
+        
+    }
+    .certi--html-and-css{
+        background-image: url(/assets/img/html&css.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s;
+        
+    }
+    .certi--html-and-css:hover{
+        background: linear-gradient(to bottom, #00000058, #00000058), url(/assets/img/html&css.png);
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        scale: 1.1;
+    }
+
+    .certi--js{
+        background-image: url(/assets/img/js.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s;
+    }
+    .certi--js:hover{
+        background: linear-gradient(to bottom, #00000058, #00000058), url(/assets/img/js.png);
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        scale: 1.1;
+        
+    }
+    /* @media only screen and (min-width: 490px) and (max-width: 768px){
+        .certification{
+            width: 280px;
+        }
+    } */
+    @media only screen and (max-width: 768px){
+        .certi--html-and-css{
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        .certi--js{
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        .certification {
+            height: 173px;
+        }
+        
+    }
+    @media only screen and (max-width: 1130px){
+        .certi__container{
+            flex-direction: column;
+        }
+        .certi__item-container{
+            align-items: center;
+        }
+    }
+/* CERTIFICATIONS */
     
 
 
