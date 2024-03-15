@@ -15,6 +15,8 @@ ScrollReveal().reveal('.aboutMe', {delay: 300});
 ScrollReveal().reveal('.experience', {delay: 300});
 ScrollReveal().reveal('.stack', {delay: 300});
 ScrollReveal().reveal('.reviewsContainer', {delay: 300});
+ScrollReveal().reveal('.certifications', {delay: 300});
+ScrollReveal().reveal('.contactMe', {delay: 300});
 
 
 
