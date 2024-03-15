@@ -655,7 +655,7 @@ a{
     .contactMe{
         max-width: var(--max-width-dimensions);
         margin: var(--container-spacing) auto 0 auto;
-        margin-bottom: 25rem;
+        margin-bottom: 10rem;
         /* border: 1px solid red; */
     }
     .contact__title{
@@ -697,10 +697,20 @@ a{
             margin-top: 2rem;
         }
         .contact__item{
-            scale: 0.7;
+            scale: 1;
         }
     }
 /* CONTACT ME */
+
+/* FOOTER */
+    /* .footer{
+        background-color: #000;
+        text-align: center;
+    }
+    .footer span{
+        background-color: inherit;
+    } */
+/* FOOTER */
     
 
 
